@@ -1,0 +1,41 @@
+.speech-recognition-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f9f4f4;
+  font-size: larger;
+}
+
+.command-area {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fa-microphone {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.fa-microphone:hover {
+  transform: scale(1.1);
+}
+
+.listening {
+  color: #00ffcc; /* Change color when listening */
+}
+
+.command {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.commands-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.commands-list li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}

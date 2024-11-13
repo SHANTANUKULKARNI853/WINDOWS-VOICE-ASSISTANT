@@ -1,0 +1,45 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #1e2f1e);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.welcome-container {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.start {
+  padding: 12px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 50%;
+  background-color: #000507;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.start:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+/* Glassmorphism effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
